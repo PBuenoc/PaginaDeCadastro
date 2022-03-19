@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Cadastro</title>
+</head>
+<body>
+    
+    <div class="box">
+
+        <h1>Cadastro</h1><br>
+        <form action="">
+            <div class="inputBox">
+                <label for="nome" class="labelInput">Nome completo</label>
+                <input type="text" name="nome" id="nome" class="inputUser" required>
+                
+            </div>
+            <br>
+            <div class="inputBox">
+                <label for="email" class="labelInput">Email</label>
+                <input type="email" name="email" id="email" class="inputUser" required>
+            
+                
+            </div>  
+            <br>
+            <div class="inputBox">  
+                <label for="telefone" class="labelInput">Telefone</label>
+                <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                
+            </div>
+            <div class="sex">
+                <h3>Sexo:</h3>
+                <select id="format">
+                    <option value="fem">Feminino</option>
+                    <option value="masc">Masculino</option>
+                    <option value="outro">Outro</option>
+                </select>
+            </div>
+            <br>
+           
+            <label for="data" class="labelInput">Data de Nascimento:</label>
+            <input type="date" name="data" id="data"  required>
+           
+            <br><br>
+            <div class="inputBox">
+                <label for="cidade" class="labelInput">Cidade</label>
+                <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                
+            </div>
+            <br>
+            <div class="inputBox">
+                <label for="estado" class="labelInput">Estado</label>
+                <input type="text" name="estado" id="estado" class="inputUser" required>
+                
+            </div>
+            <br>
+            <div class="inputBox">
+                <label for="endereço" class="labelInput">Endereço</label>
+                <input type="text" name="endereço" id="endereço" class="inputUser" required>
+                
+            </div>
+            <br>
+            <button type="submit" name="submit" id="submit">Enviar</button>
+        </form>
+
+    </div>
+
+</body>
+</html>
